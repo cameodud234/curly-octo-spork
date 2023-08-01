@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD12E9612A79842D00D60BD2 /* curly_octo_sporkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E9602A79842D00D60BD2 /* curly_octo_sporkApp.swift */; };
+		BD12E9632A79842D00D60BD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E9622A79842D00D60BD2 /* ContentView.swift */; };
+		BD12E9652A79842E00D60BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD12E9642A79842E00D60BD2 /* Assets.xcassets */; };
+		BD12E9682A79842E00D60BD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD12E9672A79842E00D60BD2 /* Preview Assets.xcassets */; };
+		BD12E9722A79842E00D60BD2 /* curly_octo_sporkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E9712A79842E00D60BD2 /* curly_octo_sporkTests.swift */; };
+		BD12E97C2A79842E00D60BD2 /* curly_octo_sporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E97B2A79842E00D60BD2 /* curly_octo_sporkUITests.swift */; };
+		BD12E97E2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E97D2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift */; };
+		BD12E98D2A79966100D60BD2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E98C2A79966100D60BD2 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD12E96E2A79842E00D60BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD12E9552A79842D00D60BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD12E95C2A79842D00D60BD2;
+			remoteInfo = "curly-octo-spork";
+		};
+		BD12E9782A79842E00D60BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD12E9552A79842D00D60BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD12E95C2A79842D00D60BD2;
+			remoteInfo = "curly-octo-spork";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD12E95D2A79842D00D60BD2 /* curly-octo-spork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "curly-octo-spork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12E9602A79842D00D60BD2 /* curly_octo_sporkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curly_octo_sporkApp.swift; sourceTree = "<group>"; };
+		BD12E9622A79842D00D60BD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD12E9642A79842E00D60BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD12E9672A79842E00D60BD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD12E96D2A79842E00D60BD2 /* curly-octo-sporkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "curly-octo-sporkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12E9712A79842E00D60BD2 /* curly_octo_sporkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curly_octo_sporkTests.swift; sourceTree = "<group>"; };
+		BD12E9772A79842E00D60BD2 /* curly-octo-sporkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "curly-octo-sporkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12E97B2A79842E00D60BD2 /* curly_octo_sporkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curly_octo_sporkUITests.swift; sourceTree = "<group>"; };
+		BD12E97D2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curly_octo_sporkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD12E98C2A79966100D60BD2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD12E95A2A79842D00D60BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12E96A2A79842E00D60BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12E9742A79842E00D60BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD12E9542A79842D00D60BD2 = {
+			isa = PBXGroup;
+			children = (
+				BD12E95F2A79842D00D60BD2 /* curly-octo-spork */,
+				BD12E9702A79842E00D60BD2 /* curly-octo-sporkTests */,
+				BD12E97A2A79842E00D60BD2 /* curly-octo-sporkUITests */,
+				BD12E95E2A79842D00D60BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD12E95E2A79842D00D60BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD12E95D2A79842D00D60BD2 /* curly-octo-spork.app */,
+				BD12E96D2A79842E00D60BD2 /* curly-octo-sporkTests.xctest */,
+				BD12E9772A79842E00D60BD2 /* curly-octo-sporkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD12E95F2A79842D00D60BD2 /* curly-octo-spork */ = {
+			isa = PBXGroup;
+			children = (
+				BD12E98B2A79961900D60BD2 /* Models */,
+				BD12E98A2A79960E00D60BD2 /* Views */,
+				BD12E9602A79842D00D60BD2 /* curly_octo_sporkApp.swift */,
+				BD12E9662A79842E00D60BD2 /* Preview Content */,
+			);
+			path = "curly-octo-spork";
+			sourceTree = "<group>";
+		};
+		BD12E9662A79842E00D60BD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD12E9672A79842E00D60BD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD12E9702A79842E00D60BD2 /* curly-octo-sporkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD12E9712A79842E00D60BD2 /* curly_octo_sporkTests.swift */,
+			);
+			path = "curly-octo-sporkTests";
+			sourceTree = "<group>";
+		};
+		BD12E97A2A79842E00D60BD2 /* curly-octo-sporkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD12E97B2A79842E00D60BD2 /* curly_octo_sporkUITests.swift */,
+				BD12E97D2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift */,
+			);
+			path = "curly-octo-sporkUITests";
+			sourceTree = "<group>";
+		};
+		BD12E98A2A79960E00D60BD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD12E9622A79842D00D60BD2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD12E98B2A79961900D60BD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD12E9642A79842E00D60BD2 /* Assets.xcassets */,
+				BD12E98C2A79966100D60BD2 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD12E95C2A79842D00D60BD2 /* curly-octo-spork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD12E9812A79842E00D60BD2 /* Build configuration list for PBXNativeTarget "curly-octo-spork" */;
+			buildPhases = (
+				BD12E9592A79842D00D60BD2 /* Sources */,
+				BD12E95A2A79842D00D60BD2 /* Frameworks */,
+				BD12E95B2A79842D00D60BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "curly-octo-spork";
+			productName = "curly-octo-spork";
+			productReference = BD12E95D2A79842D00D60BD2 /* curly-octo-spork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD12E96C2A79842E00D60BD2 /* curly-octo-sporkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD12E9842A79842E00D60BD2 /* Build configuration list for PBXNativeTarget "curly-octo-sporkTests" */;
+			buildPhases = (
+				BD12E9692A79842E00D60BD2 /* Sources */,
+				BD12E96A2A79842E00D60BD2 /* Frameworks */,
+				BD12E96B2A79842E00D60BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD12E96F2A79842E00D60BD2 /* PBXTargetDependency */,
+			);
+			name = "curly-octo-sporkTests";
+			productName = "curly-octo-sporkTests";
+			productReference = BD12E96D2A79842E00D60BD2 /* curly-octo-sporkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD12E9762A79842E00D60BD2 /* curly-octo-sporkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD12E9872A79842E00D60BD2 /* Build configuration list for PBXNativeTarget "curly-octo-sporkUITests" */;
+			buildPhases = (
+				BD12E9732A79842E00D60BD2 /* Sources */,
+				BD12E9742A79842E00D60BD2 /* Frameworks */,
+				BD12E9752A79842E00D60BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD12E9792A79842E00D60BD2 /* PBXTargetDependency */,
+			);
+			name = "curly-octo-sporkUITests";
+			productName = "curly-octo-sporkUITests";
+			productReference = BD12E9772A79842E00D60BD2 /* curly-octo-sporkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD12E9552A79842D00D60BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BD12E95C2A79842D00D60BD2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BD12E96C2A79842E00D60BD2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD12E95C2A79842D00D60BD2;
+					};
+					BD12E9762A79842E00D60BD2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD12E95C2A79842D00D60BD2;
+					};
+				};
+			};
+			buildConfigurationList = BD12E9582A79842D00D60BD2 /* Build configuration list for PBXProject "curly-octo-spork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD12E9542A79842D00D60BD2;
+			productRefGroup = BD12E95E2A79842D00D60BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD12E95C2A79842D00D60BD2 /* curly-octo-spork */,
+				BD12E96C2A79842E00D60BD2 /* curly-octo-sporkTests */,
+				BD12E9762A79842E00D60BD2 /* curly-octo-sporkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD12E95B2A79842D00D60BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12E9682A79842E00D60BD2 /* Preview Assets.xcassets in Resources */,
+				BD12E9652A79842E00D60BD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12E96B2A79842E00D60BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12E9752A79842E00D60BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD12E9592A79842D00D60BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12E98D2A79966100D60BD2 /* Theme.swift in Sources */,
+				BD12E9632A79842D00D60BD2 /* ContentView.swift in Sources */,
+				BD12E9612A79842D00D60BD2 /* curly_octo_sporkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12E9692A79842E00D60BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12E9722A79842E00D60BD2 /* curly_octo_sporkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12E9732A79842E00D60BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12E97C2A79842E00D60BD2 /* curly_octo_sporkUITests.swift in Sources */,
+				BD12E97E2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD12E96F2A79842E00D60BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD12E95C2A79842D00D60BD2 /* curly-octo-spork */;
+			targetProxy = BD12E96E2A79842E00D60BD2 /* PBXContainerItemProxy */;
+		};
+		BD12E9792A79842E00D60BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD12E95C2A79842D00D60BD2 /* curly-octo-spork */;
+			targetProxy = BD12E9782A79842E00D60BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD12E97F2A79842E00D60BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD12E9802A79842E00D60BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD12E9822A79842E00D60BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"curly-octo-spork/Preview Content\"";
+				DEVELOPMENT_TEAM = VKHN2Y852W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.app.curly-octo-spork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD12E9832A79842E00D60BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"curly-octo-spork/Preview Content\"";
+				DEVELOPMENT_TEAM = VKHN2Y852W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.app.curly-octo-spork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD12E9852A79842E00D60BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKHN2Y852W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.app.curly-octo-sporkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/curly-octo-spork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/curly-octo-spork";
+			};
+			name = Debug;
+		};
+		BD12E9862A79842E00D60BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKHN2Y852W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.app.curly-octo-sporkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/curly-octo-spork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/curly-octo-spork";
+			};
+			name = Release;
+		};
+		BD12E9882A79842E00D60BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKHN2Y852W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.app.curly-octo-sporkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "curly-octo-spork";
+			};
+			name = Debug;
+		};
+		BD12E9892A79842E00D60BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKHN2Y852W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.app.curly-octo-sporkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "curly-octo-spork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD12E9582A79842D00D60BD2 /* Build configuration list for PBXProject "curly-octo-spork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12E97F2A79842E00D60BD2 /* Debug */,
+				BD12E9802A79842E00D60BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD12E9812A79842E00D60BD2 /* Build configuration list for PBXNativeTarget "curly-octo-spork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12E9822A79842E00D60BD2 /* Debug */,
+				BD12E9832A79842E00D60BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD12E9842A79842E00D60BD2 /* Build configuration list for PBXNativeTarget "curly-octo-sporkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12E9852A79842E00D60BD2 /* Debug */,
+				BD12E9862A79842E00D60BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD12E9872A79842E00D60BD2 /* Build configuration list for PBXNativeTarget "curly-octo-sporkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12E9882A79842E00D60BD2 /* Debug */,
+				BD12E9892A79842E00D60BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD12E9552A79842D00D60BD2 /* Project object */;
+}
