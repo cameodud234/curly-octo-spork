@@ -9,38 +9,61 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var reloadCount: Int = 0
-    @State var userMessage: String = "Hello user"
+    @State var user: User = User()
     
     var body: some View {
         VStack {
-            Button(action : {
-                DispatchQueue.main.asyncAfter(deadline: .now()) {
-                    self.reloadCount += 1;
+    
+            VStack {
+                Form {
+                    TextField(
+                        "username",
+                        text: $user.username
+                    )
+                    .disableAutocorrection(true)
+                    .textInputAutocapitalization(.never)
+
+                    TextField(
+                        "email",
+                        text: $user.emailAddress
+                    )
+                    .disableAutocorrection(true)
+                    .textInputAutocapitalization(.never)
                     
+                    SecureField(
+                        "password",
+                        text: $user.password
+                    )
+                    .disableAutocorrection(true)
+                    .textInputAutocapitalization(.never)
+
                 }
-            }) {
-                Text("press me")
             }
-            .padding()
-            .background(Theme.bubblegum.mainColor)
-            .cornerRadius(4)
             
-            HStack {
-                TextField("My text field", text: $userMessage)
-                    .padding()
-                    .background(Theme.poppy.mainColor)
-                    .cornerRadius(4)
-                
+            
+            NavigationStack {
+                NavigationLink(destination: AnotherContentView()){
+                    Text("Click here")
+                }
+                .navigationTitle("Fill Cart")
+                .background(Theme.buttercup.mainColor)
             }
-            .padding()
             
-            Text("count: \(reloadCount)")
-                .padding()
-                .background(Theme.yellow.mainColor)
-                .cornerRadius(4)
+            
+            Spacer()
+            
+            Label("\(user.username)", systemImage: "")
+            
+            Label("\(user.emailAddress)", systemImage: "")
+            
+            Label("\(user.password)", systemImage: "")
+            
+            
         }
+        .padding()
+    
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

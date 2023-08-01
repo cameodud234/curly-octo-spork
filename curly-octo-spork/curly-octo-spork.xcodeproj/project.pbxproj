@@ -15,6 +15,8 @@
 		BD12E97C2A79842E00D60BD2 /* curly_octo_sporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E97B2A79842E00D60BD2 /* curly_octo_sporkUITests.swift */; };
 		BD12E97E2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E97D2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift */; };
 		BD12E98D2A79966100D60BD2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E98C2A79966100D60BD2 /* Theme.swift */; };
+		BD12E98F2A79A37300D60BD2 /* AnotherContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E98E2A79A37300D60BD2 /* AnotherContentView.swift */; };
+		BD12E9922A79C17A00D60BD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12E9912A79C17A00D60BD2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		BD12E97B2A79842E00D60BD2 /* curly_octo_sporkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curly_octo_sporkUITests.swift; sourceTree = "<group>"; };
 		BD12E97D2A79842E00D60BD2 /* curly_octo_sporkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curly_octo_sporkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD12E98C2A79966100D60BD2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BD12E98E2A79A37300D60BD2 /* AnotherContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherContentView.swift; sourceTree = "<group>"; };
+		BD12E9912A79C17A00D60BD2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				BD12E9622A79842D00D60BD2 /* ContentView.swift */,
+				BD12E98E2A79A37300D60BD2 /* AnotherContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			children = (
 				BD12E9642A79842E00D60BD2 /* Assets.xcassets */,
 				BD12E98C2A79966100D60BD2 /* Theme.swift */,
+				BD12E9912A79C17A00D60BD2 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			files = (
 				BD12E98D2A79966100D60BD2 /* Theme.swift in Sources */,
 				BD12E9632A79842D00D60BD2 /* ContentView.swift in Sources */,
+				BD12E98F2A79A37300D60BD2 /* AnotherContentView.swift in Sources */,
+				BD12E9922A79C17A00D60BD2 /* User.swift in Sources */,
 				BD12E9612A79842D00D60BD2 /* curly_octo_sporkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
